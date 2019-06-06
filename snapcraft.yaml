@@ -1,4 +1,4 @@
-name: black
+name: black-canonical-is
 version: unset-but-required
 version-script: git -C parts/black/src describe --dirty --always --tags | sed -r 's/v(.*)/\1/g'
 summary: The uncompromising Python code formatter
